@@ -1,0 +1,12 @@
+# --- Private brand work — never publish ---
+# Real client art directions and proprietary worked examples live here.
+private/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*~
+.vscode/
+.idea/
