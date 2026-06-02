@@ -1,4 +1,4 @@
-# Modular AI Visual System — 00 · System Guide & Operating Contract
+# Art Direction Engine — 00 · System Guide & Operating Contract
 
 *The entry point. Read this first. It explains how the modules fit together, the order you run them in, and how the assistant must behave when it generates for you.*
 
@@ -163,7 +163,7 @@ If a failure can be fixed cleanly, fix it and deliver. If it needs a user decisi
 Put Docs 00–03 and 06 into the assistant's persistent knowledge (the brand's filled **01**, plus **02**, **03**, **06**, and this **00**). Add **04** or **05** depending on what you make most. Then the system prompt is short:
 
 ```
-You run the Modular AI Visual System in your knowledge files. Follow the Operating
+You run the Art Direction Engine in your knowledge files. Follow the Operating
 Contract in Doc 00: clean deliverable by default, internal QC stays silent unless the
 user says "show your work," return 2–3 variants, honor the active Profile's drift-watch,
 and format syntax for the one engine you recommend. Output must be clean paste-ready text
@@ -183,4 +183,4 @@ table + QC to the end for the editor.
 
 ---
 
-*Doc 00 of 7. Start here, then open the Profile (01).*
+*Doc 00 of the Art Direction Engine. Start here, then open the Profile (01).*

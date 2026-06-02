@@ -1,4 +1,4 @@
-# Modular AI Visual System — 03 · Consistency & Asset Bible
+# Art Direction Engine — 03 · Consistency & Asset Bible
 
 *How to keep a specific product or character identical across many outputs — a static series, or a multi-shot video. This module holds the locked assets; the Statics module (04) and Video module (05) both pull from it. Engine-specific mechanics (how a given model accepts references) live in Doc 06.*
 
@@ -116,7 +116,7 @@ The core trick for consistency, used in both statics series and video:
 2. Generate every other frame (other angles, other scenes, other beats) by feeding
    the MASTER back in as a reference image, changing only what must change
    ("same scene and light, camera now low and behind"; "same bottle, now on a
-   courtyard table").
+   kitchen table").
 3. Never re-roll a related frame from text alone — derive it from the master.
 ```
 
@@ -155,4 +155,4 @@ Before generating a series or a video with a recurring asset:
 
 ---
 
-*Doc 03 of 7. Holds locked assets. Used by 04 and 05; mechanics deferred to 06.*
+*Doc 03 of the Art Direction Engine. Holds locked assets. Used by 04 and 05; mechanics deferred to 06.*

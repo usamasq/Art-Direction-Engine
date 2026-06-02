@@ -1,4 +1,4 @@
-# Modular AI Visual System — 01A · Art Direction Creation Guide
+# Art Direction Engine — 01A · Art Direction Creation Guide
 
 *How to invent a distinctive, impactful art direction for any brand or campaign — and turn it into a filled Profile (01). This is the upstream thinking layer: the template tells you what fields exist; this tells you how to fill them with something that isn't generic. Its output is a completed Doc 01.*
 
@@ -148,4 +148,4 @@ Note how the output could *only* be this brand — that's the test passing.
 
 ---
 
-*Doc 01A of the system. Produces a filled Doc 01 Profile, which the rest of the modules (02–06) then run on.*
+*Doc 01A of the Art Direction Engine. Produces a filled Doc 01 Profile, which the rest of the modules (02–06) then run on.*

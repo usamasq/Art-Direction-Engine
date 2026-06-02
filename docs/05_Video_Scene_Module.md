@@ -1,4 +1,4 @@
-# Modular AI Visual System — 05 · Video / Scene Module
+# Art Direction Engine — 05 · Video / Scene Module
 
 *For video: multi-shot scenes with several camera angles and elements that must read as one continuous filmed space, and sequences where things progress over time. Pulls build rules from the Core Grammar (02) and asset-locking from the Asset Bible (03). The brand look comes from the active Profile (01); engine syntax from Doc 06.*
 
@@ -221,4 +221,4 @@ Plus a Render-QC watch-list: 2–3 specific things to check in the rendered clip
 
 ---
 
-*Doc 05 of 7. Video. Uses 02 + 03; translated by 06.*
+*Doc 05 of the Art Direction Engine. Video. Uses 02 + 03; translated by 06.*

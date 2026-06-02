@@ -1,6 +1,6 @@
-# Modular AI Visual System — 01 · Art Direction Profile (Template)
+# Art Direction Engine — 01 · Art Direction Profile (Template)
 
-*The one swappable file. This is the only document that changes per brand or campaign. Copy it, fill every field, name it for the brand (e.g. `01_Profile_AlKhamayil.md`), and the other six modules will run on it unchanged.*
+*The one swappable file. This is the only document that changes per brand or campaign. Copy it, fill every field, name it for the brand (e.g. `01_Profile_YourBrand.md`), and the other six modules will run on it unchanged.*
 
 > **How the rest of the system uses this:** the Core Grammar (02) has empty slots — Light, Palette, Subject, Environment, Negative-space. Those slots are filled from the fields below. Swap this file and the whole system retargets.
 
@@ -103,4 +103,4 @@
 
 ---
 
-*Doc 01 of 7. Filled per brand. Feeds every other module.*
+*Doc 01 of the Art Direction Engine. Filled per brand. Feeds every other module.*

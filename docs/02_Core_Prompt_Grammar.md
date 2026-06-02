@@ -1,4 +1,4 @@
-# Modular AI Visual System — 02 · Core Prompt Grammar
+# Art Direction Engine — 02 · Core Prompt Grammar
 
 *Brand-neutral mechanics. How any prompt is built, regardless of brand. The brand values come from the Art Direction Profile (01); the asset facts come from the Asset Bible (03). This document is the grammar those words slot into.*
 
@@ -122,4 +122,4 @@ This skeleton never changes. Only the bracketed contents do — which is what le
 
 ---
 
-*Doc 02 of 7. Brand-neutral. Reads its contents from 01 and 03.*
+*Doc 02 of the Art Direction Engine. Brand-neutral. Reads its contents from 01 and 03.*

@@ -1,4 +1,4 @@
-# Modular AI Visual System — 06 · Engine Adapters
+# Art Direction Engine — 06 · Engine Adapters
 
 *The final translation step. Takes the brand-neutral prompt assembled by the Grammar (02) and renders it in the correct syntax for the chosen engine. Also specifies how each engine achieves the consistency the Asset Bible (03) and Video module (05) call for. One job → one recommended engine → that engine's syntax.*
 
@@ -137,4 +137,4 @@ Same intent, three syntaxes — which is exactly why engine translation is its o
 
 ---
 
-*Doc 06 of 7. Always the last step. Brand-neutral.*
+*Doc 06 of the Art Direction Engine. Always the last step. Brand-neutral.*

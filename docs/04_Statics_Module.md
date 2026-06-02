@@ -1,4 +1,4 @@
-# Modular AI Visual System — 04 · Statics Module
+# Art Direction Engine — 04 · Statics Module
 
 *For still images: one static, or a series of statics that share the same product/asset. Pulls build rules from the Core Grammar (02) and asset-locking from the Asset Bible (03). Brand look comes from the active Profile (01).*
 
@@ -86,4 +86,4 @@ POST 3 (derive): ...
 
 ---
 
-*Doc 04 of 7. Statics. Uses 02 + 03; translated by 06.*
+*Doc 04 of the Art Direction Engine. Statics. Uses 02 + 03; translated by 06.*
