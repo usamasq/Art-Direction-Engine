@@ -89,8 +89,15 @@ The 7 sequential modules (00–06) plus the 01A Creation Guide are the whole too
 
 The best way to understand the system is to read a complete output. [`examples/`](examples/) contains a fictional craft hot-honey brand, **Ember & Comb**, taken all the way through:
 
+![The Ember & Comb master frame — the approved hero still that locks the look](assets/examples/ember_master_frame.jpeg)
+
+*The master frame, generated from the Profile. Every shot in the reel is derived from this one image, so the jar and the world stay identical across angles.*
+
+
 - **[profile_EmberAndComb.md](examples/profile_EmberAndComb.md)** — what a filled Profile looks like, with the Creation-Guide rationale that produced it.
 - **[worked_reel_EmberAndComb.md](examples/worked_reel_EmberAndComb.md)** — a full, runnable video deliverable built from that Profile (the stills-first loop, ready to hand to a non-technical operator).
+
+▶ **The finished reel and all rendered stills** live in [`assets/examples/`](assets/examples/) (including [`ember_reel.mp4`](assets/examples/ember_reel.mp4)).
 
 Everything in `examples/` is invented for teaching. Your own brand work stays out of the repo (see [.gitignore](.gitignore)).
 

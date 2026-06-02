@@ -17,4 +17,4 @@ A made-up small-batch hot-honey brand whose territory is **heat × comfort**: he
 - **As a template:** copy the Profile's structure for your own brand, then copy the reel's *format* for any multi-beat product video. The reel's closing section explains why the layout is the standard.
 - **As an LLM reference:** drop the Profile into an assistant alongside the toolset docs to show it a concrete, correct target.
 
-Want to see the rendered images that go with the reel? See [`../assets/`](../assets/) for the slots — render them yourself from the prompts in the worked example and drop them in.
+The rendered images for this example — the packshot, scene plate, jar sheet, master frame, each shot still, and the assembled reel — live in [`../assets/examples/`](../assets/examples/), and are embedded inline throughout the worked reel above.

@@ -43,7 +43,12 @@ table, no product yet. 50mm, shallow depth on the kitchen behind. Charcoal-and-a
 palette, matte surfaces. No text, no people. --ar 9:16
 ```
 
+![Step 1a output — the empty dark-kitchen scene plate, lit from camera-left](../assets/examples/ember_scene_ref.jpeg)
+
 **1b. Product sheet — convert the single jar photo into a multi-angle sheet** (you start with one packshot):
+
+![The single packshot of the (invented) Ember & Comb jar you start from](../assets/examples/ember_jar_packshot.jpeg)
+
 ```
 PROMPT → paste into Nano Banana Pro  (attach: the one Ember & Comb jar photo):
 Using the attached product photo as the exact reference: produce a clean multi-angle
@@ -53,6 +58,8 @@ honey colour, proportions and shape identical to the photo in every view. Even s
 no scene, no props, no added text. --ar 1:1
 ```
 *If your only jar photo is in a busy setting, first paste an isolate prompt — "extract only the honey jar onto a plain grey background, label and amber colour exact" — then run the sheet prompt on that.*
+
+![Step 1b output — the multi-angle reference sheet that locks the jar across every shot](../assets/examples/ember_jar_sheet.jpeg)
 
 **1c. Record real dimensions** in the Asset Bible after approving the sheet: jar ~8 cm tall · wooden dipper ~16 cm. (These lock the pour proportions across shots.)
 
@@ -66,6 +73,8 @@ Work in **one session** so its memory holds the locked jar as you derive later s
 > image 1 = scene/layout reference (preserve the kitchen geometry + camera-left hearth light); image 2 = the Ember & Comb jar sheet (preserve label, shape, amber colour). A dark rustic kitchen at dusk, single low warm hearth light from camera-left. On a worn oak board: crispy golden fried chicken centre, the Ember & Comb honey jar with its wooden dipper resting front-right, lid off. Deep amber glow against charcoal, faint smoky haze, matte wood and iron, shallow depth on the dark kitchen behind. 50mm, low and close, asymmetric. Upper-left kept as a soft defocused charcoal plaster wall in warm ash for copy (not white). No deformed hands, no plastic sheen, honey-glossy only. `--ar 9:16`
 
 ▸ **Approve this image before continuing.** Save it as `master_frame_ember_v1`.
+
+![Step 2 output — the approved master frame; every shot below is derived from this one image](../assets/examples/ember_master_frame.jpeg)
 
 ---
 
@@ -81,6 +90,8 @@ Reuse the approved `master_frame_ember_v1` — **no new prompt.**
 > **END PROMPT → paste into Nano Banana Pro**  *(attach: master frame + jar sheet)*
 > Using the attached master frame and jar reference: same dark kitchen, hearth light stays camera-left, board and chicken unchanged in place — but a cook's hand now lifts the wooden dipper up out of the jar and a first thick glossy ribbon of amber chili honey is falling from it toward the chicken, a few ember-red chili flecks suspended in the amber. Keep the label and amber colour exact, honey thick and slow. 50mm, deep warm glow, upper-left kept as a defocused charcoal wall reserved for copy (not white). `--ar 9:16`
 
+![Shot 2 end frame — the dipper lifted, the first ribbon of honey falling](../assets/examples/ember_shot2_end.jpeg)
+
 ### Shot 3 — the drizzle lands · **macro insert**  *(two-state: start + end)*
 *New angle (100mm macro), so the start frame is written fresh — it can't be the wide pivoted.*
 > **START PROMPT → paste into Nano Banana Pro**  *(attach: Shot 2 end still + jar sheet)*
@@ -89,6 +100,8 @@ Reuse the approved `master_frame_ember_v1` — **no new prompt.**
 > **END PROMPT → paste into Nano Banana Pro**  *(attach: the start still just above)*
 > Same macro frame, but the honey has landed — a glossy amber pool spreading over the crispy crust, slow drips down the side, chili flecks settling in the pool. Everything else identical. `--ar 9:16`
 
+![Shot 3 — the macro insert; honey landing with the chili flecks visible](../assets/examples/ember_shot3_macro.jpeg)
+
 ### Shot 4 — someone reaches in  *(two-state: start + end)*
 *Re-establishes 50mm after the macro and brings in the human, so the start frame is written fresh.*
 > **START PROMPT → paste into Nano Banana Pro**  *(attach: Shot 2 end still + jar sheet)*
@@ -96,6 +109,8 @@ Reuse the approved `master_frame_ember_v1` — **no new prompt.**
 
 > **END PROMPT → paste into Nano Banana Pro**  *(attach: the start still just above)*
 > Same frame, but the person's hand has reached in and torn a glazed piece away, a thread of glossy honey stretching from it. Everything else identical. `--ar 9:16`
+
+![Shot 4 — the human beat; a hand tears a glazed piece away, honey stretching](../assets/examples/ember_shot4_reach.jpeg)
 
 ---
 
@@ -137,6 +152,10 @@ Paste each brief into Gemini Omni and attach the listed still(s). These describe
 - **Label drift** on the jar between the 50mm and 100mm shots → re-derive from the jar sheet, not from text.
 
 ---
+
+## The finished reel
+
+The five clips assembled into the ~10s result: **[`ember_reel.mp4`](../assets/examples/ember_reel.mp4)** (download/preview from `assets/examples/`).
 
 ## Why this layout is the standard
 - **A stranger can run it.** The header names the two tools and how to read the doc; every prompt block names its tool and attachments; the Scene Sheet/ledger are tagged "don't paste"; post-production is walled off at the end. (Doc 00 §4.1a.)
