@@ -18,7 +18,7 @@ flowchart LR
 - **One AI assistant that supports custom instructions + file uploads.** Any of:
   - **Claude** — Projects (claude.ai)
   - **ChatGPT** — a custom GPT (Plus/Team)
-  - **Gemini** — a Gem
+  - **Gemini** — a Gem *(or skip setup and try the [ready-made public Gem](https://gemini.google.com/gem/1CeNFZPOSowKmL3AuqklvStldXLLgCl2b?usp=sharing) — see [Step 2](#step-2--build-the-assistant))*
 - **The image/video tools you'll actually generate in** (the assistant writes the prompts; you paste them into these). Current picks are in [docs/06_Engine_Adapters.md](docs/06_Engine_Adapters.md) — e.g. Nano Banana Pro for stills, Gemini Omni for video.
 - **The files in this repo** (the `docs/` folder).
 
@@ -62,6 +62,9 @@ The idea is identical on every platform: **create an assistant → give it the k
 4. Save it as **private** (only you).
 
 ### Gemini — Gems
+
+> **Shortcut — try a ready-made Gem.** A public Gem is already set up with the core engine files (Docs 00, 02, 03, 06 + the Statics/Video modules) and the Ember & Comb example Profile (`01_…`) loaded: **[Art Direction Engine Gem](https://gemini.google.com/gem/1CeNFZPOSowKmL3AuqklvStldXLLgCl2b?usp=sharing)**. Open it to see the system run immediately, no setup. Note it is **public and editable by anyone**, so treat it as a shared demo — its files may change or drift over time. For real brand work, build your own Gem (steps below) with your *private* Profile so nothing you load is shared with or altered by others.
+
 1. **Gemini → Gems → New Gem.**
 2. Add the files as **knowledge** (upload).
 3. Paste the **system instructions** into the instructions box.

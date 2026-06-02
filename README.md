@@ -142,6 +142,8 @@ The point of a brand-blind system is that **swapping the Profile retargets every
 
 Load Docs 00–03 and 06 (plus your filled Profile) into an assistant's persistent knowledge, add 04 or 05 depending on what you make, and give it the short system prompt in [Doc 00 §5](docs/00_System_Operating_Contract.md). **[SETUP.md](SETUP.md) is the full step-by-step** — including a copy-paste system prompt and per-platform instructions for Claude Projects, custom GPTs, and Gemini Gems.
 
+**Try it without any setup:** a ready-made **[public Gemini Gem](https://gemini.google.com/gem/1CeNFZPOSowKmL3AuqklvStldXLLgCl2b?usp=sharing)** comes preloaded with the engine files and the Ember & Comb example Profile — open it and start asking. It's shared and editable by anyone, so treat it as a live demo; for real brand work, build your own private assistant (per [SETUP.md](SETUP.md)) so your Profile stays yours.
+
 ### Typography: type-in-frame or background-only
 
 The system supports both putting words *on* the image and leaving clean space for copy you add later — for stills and video. You record brand type in the Profile (Field 13) and pick a **copy mode** per job: **Reserve** (leave in-palette negative space; composite the real font in post — the default and most accurate) or **Render** (the engine sets an approximate headline in-image via a text-capable engine). Logos and legal text are always composited. → [Grammar §3a](docs/02_Core_Prompt_Grammar.md)

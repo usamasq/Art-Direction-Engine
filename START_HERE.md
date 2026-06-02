@@ -74,6 +74,8 @@ Load the system into an LLM so it acts as your art director. It will ask which b
 2. Paste the short system prompt from **[Doc 00 §5](docs/00_System_Operating_Contract.md)** as the custom instructions.
 3. Start a chat: *"Profile = [brand]. Make me a [static / reel] for [thing]."* If your brief is thin, a good assistant will propose 2–3 directions before locking one.
 
+> **Want to see it run right now?** A ready-made **[public Gemini Gem](https://gemini.google.com/gem/1CeNFZPOSowKmL3AuqklvStldXLLgCl2b?usp=sharing)** comes preloaded with the engine files and the Ember & Comb example Profile — open it and start asking. It's shared and editable by anyone, so use it as a demo; for your own brand, build a private assistant via [SETUP.md](SETUP.md).
+
 > Tip: keep your real, filled brand Profiles in the gitignored `private/` folder (or outside the repo entirely) so they never get published.
 
 ---
