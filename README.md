@@ -93,13 +93,24 @@ The best way to understand the system is to read a complete output. [`examples/`
 
 *The master frame, generated from the Profile. Every shot in the reel is derived from this one image, so the jar and the world stay identical across angles.*
 
+**Consistency — three shots derived from that master:**
+
+| Drizzle · 50mm | Macro insert · 100mm | Human moment · 50mm |
+|:---:|:---:|:---:|
+| ![Ember drizzle shot](assets/examples/ember_shot2_end.jpeg) | ![Ember macro insert](assets/examples/ember_shot3_macro.jpeg) | ![Ember human moment](assets/examples/ember_shot4_reach.jpeg) |
+
+*Different framings and a new lens, yet the jar, its label, the camera-left light, and the room stay identical — because each shot is **derived from the master above, not regenerated from text.** That is the consistency engine.*
+
+**Dynamic — the stills animated into a reel:**
+
+▶ **[`ember_reel.mp4`](assets/examples/ember_reel.mp4)** — the ~10-second result. The reel is built by animating each approved still *motion-only*, so the look never drifts in the move from frame to film.
+
+These come from a complete worked example you can read end-to-end:
 
 - **[profile_EmberAndComb.md](examples/profile_EmberAndComb.md)** — what a filled Profile looks like, with the Creation-Guide rationale that produced it.
 - **[worked_reel_EmberAndComb.md](examples/worked_reel_EmberAndComb.md)** — a full, runnable video deliverable built from that Profile (the stills-first loop, ready to hand to a non-technical operator).
 
-▶ **The finished reel and all rendered stills** live in [`assets/examples/`](assets/examples/) (including [`ember_reel.mp4`](assets/examples/ember_reel.mp4)).
-
-Everything in `examples/` is invented for teaching. Your own brand work stays out of the repo (see [.gitignore](.gitignore)).
+All rendered stills and the reel live in [`assets/examples/`](assets/examples/). Everything in `examples/` is invented for teaching. Your own brand work stays out of the repo (see [.gitignore](.gitignore)).
 
 ---
 
