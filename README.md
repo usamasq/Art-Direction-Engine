@@ -114,8 +114,14 @@ The model landscape changes monthly. [Doc 06](docs/06_Engine_Adapters.md) reflec
 
 ## License
 
-Intended for release into the public domain (**CC0** — do anything, no attribution required). No `LICENSE` file is committed yet; add one via your repo host's license picker if you want it formalized.
+Intended for release into the public domain (**CC0**). Attribution isn't required, but it's appreciated. No `LICENSE` file is committed yet; add one via your repo host's license picker if you want it formalized.
+
+## Maintainer & contact
+
+Created and maintained by **Usama Bin Shahid**.
+
+Questions, suggestions, or anything you'd like to say about the system — reach out at **usamasq@gmail.com**.
 
 ## Contributing
 
-This is a methodology, not code — improvements that make the docs clearer, more brand-blind, or better at resisting generic output are welcome. Keep the "every fact in one document" rule, and keep any new examples fictional.
+This is a methodology, not code — improvements that make the docs clearer, more brand-blind, or better at resisting generic output are welcome. Keep the "every fact in one document" rule, and keep any new examples fictional. Open an issue or email the maintainer above.
