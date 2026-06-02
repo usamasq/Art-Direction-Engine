@@ -8,7 +8,7 @@
 
 A brand-blind engine for generating consistent statics and videos for **any** brand or campaign. The thing that changes per brand is **one file** (the Art Direction Profile). Everything else — how a prompt is built, how a product stays identical across shots, how a scene holds together across camera angles, how each engine wants its syntax — stays constant.
 
-The old way fused three things into one "brand bible," so the moment you wanted *this brand + a multi-angle video + a locked character*, there was no part to reach for. This system keeps them separate:
+The usual approach fuses three things into one "brand bible," so the moment you want *this brand + a multi-angle video + a locked character*, there's no part to reach for. This system keeps them separate:
 
 - **Art direction** = data you plug in (Doc 01).
 - **Mechanics** = fixed and brand-neutral (Docs 02, 03).
@@ -62,15 +62,16 @@ Same machine every time. *A launch reel with a consistent mascot* = Profile(your
 
 ## 4. The Operating Contract — how the assistant must behave
 
-This section is the fix for the things that went wrong before (QC text leaking into output, reverting to generic defaults, single options, wrong engine syntax). When an LLM or Gem runs this system, it follows these rules.
+This section addresses the failure modes that most often make AI deliverables go wrong (QC text leaking into output, reverting to generic defaults, single options, wrong engine syntax). When an LLM or Gem runs this system, it follows these rules.
 
 ### 4.1 Output contract — *clean deliverable by default*
 - **Default output is the deliverable only**: the prompt(s), the shot list, the engine string. Nothing else.
-- **Internal validation stays internal.** The assistant runs its checks silently and does **not** print a QC self-check, a rubric, a "MODE + rationale" preamble, or step-by-step reasoning unless the user asks. New users were confused by self-graded checklists in the output — so they are off by default.
+- **Internal validation stays internal.** The assistant runs its checks silently and does **not** print a QC self-check, a rubric, a "MODE + rationale" preamble, or step-by-step reasoning unless the user asks. Self-graded checklists in the output confuse the reader and clutter the deliverable — so they are off by default.
 - **Two modes, user-chosen:**
   - **Clean mode (default):** just the assets, ready to paste into an engine.
   - **Expert mode (opt-in, e.g. "show your work"):** adds the rationale, the prompt-completeness audit, and the render-QC handoff.
 - If the assistant is unsure which mode, it produces Clean and offers Expert in one short line.
+- **Copy mode (typography).** For any copy-bearing job, confirm the *copy mode* (Grammar §3a): **Reserve** (default — leave in-palette negative space; type composited in post in the exact brand font) or **Render** (the engine sets the headline in-image in an emulated brand type, via a text-capable engine). Default to Reserve if unsure. **Logos and legal text are always composited, never engine-rendered.**
 
 ### 4.1a Output format — *a non-technical operator can run it top-to-bottom*
 A correct deliverable is not just correct *content* — it must be **executable by someone who has never read Docs 02–06.** The failure to avoid: a wall of mixed text (Scene Sheet, ledger, master prompt, stills, animation, compositing table, QC) with no signal telling the reader what to *copy*, what to *read*, what to *do*, and in which *tool*. The art-direction rigor stays; it gets wrapped in an execution layer. Every multi-part deliverable (any video, any series) follows this structure:
@@ -109,7 +110,7 @@ A one-line or wide-open brief ("make me a cool reel for the juice, something fun
 - **Ask 2–3 targeted questions** (e.g. "vibe — fast ASMR pour, or a sun-drenched lifestyle moment? · roughly how many shots / how long? · heritage-warm or appetite-fresh?"), using the tappable-options tool when available; **or**
 - **Propose 2–3 distinct scene directions** in a line each (different concepts, not three flavours of one), recommend one, and build the full scene only after the user picks.
 
-This is the **scene-level** version of the Art Direction Creation Guide's "propose, don't assume" reflex (Doc 01A), which until now only fired at the *brand-profile* level. A confidently-wrong full scene from a vague ask wastes more time than a quick question and erodes trust in the output. The assistant invents freely *within* a chosen direction — it does not choose the direction silently. (If the user's brief is already specific, skip this and build.)
+This is the **scene-level** version of the Art Direction Creation Guide's "propose, don't assume" reflex (Doc 01A), which the guide applies at the *brand-profile* level. A confidently-wrong full scene from a vague ask wastes more time than a quick question and erodes trust in the output. The assistant invents freely *within* a chosen direction — it does not choose the direction silently. (If the user's brief is already specific, skip this and build.)
 
 ### 4.4 Drift-watch — *don't revert to generic defaults*
 LLMs slide back to stock choices unless held. The assistant must honor the Profile's specific rules even when a generic default would be easier. Each Profile lists its own "common drift to avoid"; the assistant treats those as hard rules. Two that apply to every brand:
@@ -144,7 +145,7 @@ Naming the reference sheets in "production notes" is **not** enough — the shot
 Two Scene Sheet fields may **never** be left blank or self-contradictory (they hold world-continuity once the loop runs): the **lens family** (if inserts need a different focal length, declare the whole family explicitly, e.g. "35mm coverage + 60mm macro inserts" — don't let it drift silently) and the **style-lock handle** (must point to the actual master frame / seed / reference-set, not "reused across beats").
 
 ### 4.8 Pre-flight check — run silently before delivering any video
-These are the gaps real outputs keep slipping through even when the structure is right. The assistant runs this check silently before sending a video deliverable; it does not print the checklist, but it **fixes or flags** anything that fails. (This is a *delivery gate*, separate from the opt-in Expert QC in §4.6.)
+These are the gaps that outputs commonly slip through even when the structure is right. The assistant runs this check silently before sending a video deliverable; it does not print the checklist, but it **fixes or flags** anything that fails. (This is a *delivery gate*, separate from the opt-in Expert QC in §4.6.)
 
 1. **Copy lands only on frames that can hold it — verify the timing map, not just "an end card exists."** Sum the shot durations against the engine's cap (Gemini Omni Flash = 10s). Then, if the brief carries copy (a tagline, an offer, bilingual lines), build the **timing map** — which copy shows over which shot — and check it against each shot's framing: **every frame the copy overlays must reserve in-palette negative space.** A tight macro written "full-frame, no copy space" cannot carry an overlay, so copy must not be scheduled over it. The common failure is scheduling a tagline across 0–7.5s when shots 2–3 in that window are full-bleed macros with nowhere for type — the budget math passes while the copy has nowhere to live. Fix by one of: confine copy to the shots that reserve space (often the opening establish + the closing beat), reserve a lower-third in the macros too, or add/extend a copy-bearing beat. A reel whose copy is mapped onto frames that can't hold it is incomplete.
 2. **Every hero object has a scale anchor.** Not just the obvious product — any object the camera features (a spoon, a glass, a ball, a phone) needs a real-world dimension in the Asset Bible (Doc 03 §2) and an in-frame proportion (Doc 02 §4). If a featured object has no size lock, add one before delivering.

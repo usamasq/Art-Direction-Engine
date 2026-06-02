@@ -85,6 +85,15 @@
 | Hearth | `____` | `____` |
 | Drizzle | `____` | `____` |
 
+## FIELD 13 — Typography & text treatment
+- **Display / headline type:** a warm high-contrast serif (Canela / Ogg style) — editorial, characterful, hand-crafted feel.
+- **Body / secondary type:** a clean humanist sans (Söhne / Inter style), medium weight, legible on dark.
+- **Case & styling:** headlines in sentence case; generous tracking on small labels; the tagline "Honey with a bite" may be set in italics for warmth.
+- **Type colour by background:** Beeswax-gold `#E6B964` or Warm Ash `#D8CFC2` type on the charcoal/dark areas; Charcoal `#2A2422` type on any light food surface. Always high contrast.
+- **Logo / lockup:** the Ember & Comb wordmark + bee/comb mark, clear-space equal to the mark's height; always composited from the official asset, never engine-rendered.
+- **Languages / script:** English, LTR.
+- **Default copy mode:** **Reserve** — type composited in post so the serif is brand-exact; **Render** only for quick English concept posts (accepting an approximate font).
+
 ---
 
 *Worked example instance of Doc 01. The [Ember & Comb reel](worked_reel_EmberAndComb.md) is built from this Profile in Drizzle mode.*

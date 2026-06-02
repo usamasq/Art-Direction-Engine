@@ -61,6 +61,13 @@
 - **Qwen:** when in-image non-Latin text is unavoidable.
 - **Ideogram / Recraft:** when the layout/type is generated rather than composited.
 
+### Rendering type in-image (Render mode)
+When the job is **Render** (Grammar 02 §3a) — the engine sets the headline itself rather than reserving space for post — route to a **text-capable** engine and phrase the type explicitly:
+- **English headline / poster:** GPT Image 2 (best in-image text + conversational edits), or Ideogram 3 / Recraft V3 (typography & layout leaders).
+- **Non-Latin (Arabic, CJK):** Qwen Image.
+- **How to phrase:** put the exact words in quotes with the emulated brand type style (Profile F13), the position (inside the reserved region, off busy areas), and the colour + contrast rule — e.g. `headline "Honey with a bite" in a warm high-contrast serif, beeswax-gold, upper-left, generous tracking`.
+- **Caveats:** the engine *approximates* a font — it cannot load the real brand typeface; verify spelling and legibility on the render. **Logos and legal lines are always composited from the official asset, never engine-rendered**, even in Render mode. For brand-exact type, use **Reserve** + composite.
+
 ---
 
 ## 3. Video — syntax & consistency per engine

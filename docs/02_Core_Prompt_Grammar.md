@@ -63,6 +63,23 @@ Negative space is **a real, defocused, in-palette region of the actual scene** r
 
 ---
 
+## 3a. Copy mode — *background-only, or type rendered in-frame*
+
+Every job is one of two **copy modes**. The assistant confirms which (and defaults to **Reserve** if unsure), because it changes both the prompt and the recommended engine. The brand's type spec comes from Profile **F13**.
+
+| Mode | What the engine does | When to use | Engine (Doc 06) |
+|---|---|---|---|
+| **Reserve** *(default)* | Renders the scene and leaves the §3 negative space empty — **no type in the image.** A human composites the headline afterwards in the real brand font. | Brand-exact fonts, logos, legal lines, non-Latin / Arabic, anything that must be pixel-perfect. | any image engine |
+| **Render** | Renders the headline **inside** the image, emulating the brand type spec (F13). | Quick concepts, English social posts, when an approximate AI-set headline is acceptable. | text-capable only: GPT Image 2, Ideogram 3, Recraft V3; Qwen for non-Latin |
+
+**The honesty rule:** an engine can only *approximate* a named brand font — it cannot load the actual font file. So **Render is a look-alike, not your real typeface.** The brand-accurate path is always Reserve + composite. **Logos and legal text are composited from the official asset in either mode — never engine-rendered.**
+
+**In Render mode, add a text layer to L5:** the exact words in quotes, the emulated type style (F13), the position (inside the reserved region, off any busy area), and the colour with its contrast rule — e.g. `headline "Honey with a bite" in a warm high-contrast serif, beeswax-gold, upper-left, generous tracking`. Verify spelling and legibility on the render; engines mis-set text often.
+
+Both modes carry through to **video** the same way (Doc 05): Reserve → composite type in the editor over the reserved region; Render → bake the headline into the **still(s)** it appears on (Step 3), then animate motion-only — never ask a video engine to generate live type.
+
+---
+
 ## 4. The scale system *(fixes "scale of things")*
 
 Scale drift — a product that's hand-sized in one frame and table-sized in the next, or a subject floating at the wrong proportion — comes from leaving size implicit. The grammar makes it explicit on two axes.

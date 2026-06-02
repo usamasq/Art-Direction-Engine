@@ -138,6 +138,10 @@ STEP 4 — Stills -> video (video model: Gemini Omni), MOTION-ONLY
 
 Why this order wins: by Step 4 the hard parts (composition, asset, light, layout) are already frozen into images, so the video model only solves motion. You can art-direct a frame you can see; you can't art-direct one you never generated.
 
+**Copy mode for video (Grammar 02 §3a).** Two ways copy lands on a reel:
+- **Reserve (default):** every copy-bearing still reserves in-palette negative space (§3); your editor composites the type in the real brand font in Step 5. Required for brand-exact fonts, logos, legal lines, and non-Latin/Arabic.
+- **Render:** the headline is baked into the **still(s)** it appears on during Step 3, using a text-capable image engine (Doc 06) and the brand type spec (Profile F13). **Never ask the video model to generate live type** — it mangles text; put it in the still, then animate motion-only. Moving/kinetic type is an editor (post) task, not a generation task.
+
 ---
 
 ## 6. Locked vs evolving toggle

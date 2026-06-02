@@ -86,6 +86,16 @@
 |---|---|---|
 | `____` | `____` | `____` |
 
+## FIELD 13 — Typography & text treatment
+*How brand copy looks, and whether type is rendered by the engine or composited in post. Pairs with FIELD 9 (the negative space type sits in). Fill this if words ever appear on the image. Copy-mode mechanics live in Grammar 02 §3a.*
+- **Display / headline type:** `____` (font name + a describable style an engine can emulate, e.g. "Canela — a high-contrast serif")
+- **Body / secondary type:** `____`
+- **Case & styling:** `____` (all-caps / sentence case; tracking; italics; any signature treatment)
+- **Type colour by background:** `____` (which palette role type takes on dark vs light areas — the contrast rule)
+- **Logo / lockup:** `____` (how the logo + tagline lock; clear-space) — **always composited from the official asset, never engine-rendered**
+- **Languages / script:** `____` (languages; RTL/LTR; bilingual stacking; which script leads)
+- **Default copy mode:** `Reserve` (engine leaves in-palette negative space; type composited in post in the real brand font — most accurate) **or** `Render` (engine sets the headline in-image, emulating the style above — English-friendly, approximate font)
+
 ---
 
 ## APPENDIX — Worked example (Ember & Comb, abridged)
@@ -100,6 +110,7 @@
 - **F7 Modes:** *Hearth* (warm, dark, intimate — brand & story posts) · *Drizzle* (tighter, glossier, appetite-forward macro — product/craving posts).
 - **F9 Negative space:** soft-shadowed charcoal plaster wall or out-of-focus warm-dark kitchen; never plain white.
 - **F11 Drift-watch:** honey reading thin/runny instead of thick and glossy; warmth tipping into orange oversaturation; losing the chili "heat" cue so it reads as plain honey; defaulting to bright overhead foodie-flatlay light.
+- **F13 Typography:** warm high-contrast serif (display) + humanist sans (body); default **Reserve** mode — type composited in post; logo always composited, never engine-rendered.
 
 ---
 

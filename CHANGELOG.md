@@ -2,6 +2,23 @@
 
 All notable changes to the Art Direction Engine.
 
+## [1.1.0] — 2026-06-03
+
+### Added
+- `SETUP.md` — a non-technical "build your own AI Art Director" walkthrough: create a
+  Profile, set up the assistant (Claude Projects / custom GPT / Gemini Gem) with a
+  copy-paste system prompt, run a first job, and troubleshoot.
+- **Typography support** as a first-class **copy mode**: Profile **Field 13** (brand type
+  spec) plus Grammar **§3a** defining **Reserve** (background only; type composited in
+  post in the real font — default) vs **Render** (engine sets an approximate headline
+  in-image via a text-capable engine). Wired through Statics (04), Video (05),
+  Engine Adapters (06), and the Operating Contract (00). Works for stills and video;
+  logos and legal text are always composited.
+
+### Changed
+- Reframed history/insider phrasing in Doc 00 (e.g. "the old way", "new users were
+  confused", "until now") to describe general principles a first-time reader can follow.
+
 ## [1.0.0] — 2026-06-03
 
 First public release. Restructured a private art-direction system into a brand-blind,

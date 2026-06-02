@@ -9,10 +9,13 @@
 The simplest path. One image, one moment.
 
 ```
-1. Confirm the active Profile (01) and the Mode (Profile F7) for this content.
+1. Confirm the active Profile (01), the Mode (Profile F7), and the copy mode
+   (02 §3a): Reserve (default — leave negative space, type composited later) or
+   Render (engine sets the headline in-image; use a text-capable engine).
 2. If a recurring asset appears, load its Asset Bible entry (03).
 3. Assemble the prompt with the Core Grammar (02): one choice per layer,
    negative space as an in-palette defocused region (02 §3), scale anchored (02 §4).
+   In Render mode, add the headline text layer (02 §3a) from Profile F13.
 4. Append the negative block; set the aspect (02 §5).
 5. Translate to the chosen engine (06).
 6. Return 2–3 framing variants (Operating Contract §4.3).

@@ -67,7 +67,7 @@ That's enough to start. Reach for 02–06 as you need them.
 Fill a Profile (use the [Creation Guide](docs/01A_Art_Direction_Creation_Guide.md) to make it non-generic), then follow the run sequence in [Doc 00 §3](docs/00_System_Operating_Contract.md), assembling prompts with the Grammar and translating with the Engine Adapters.
 
 ### B. As an AI assistant (recommended)
-Load the system into an LLM so it acts as your art director. It will ask which brand Profile, what output type, and which assets to keep consistent — then produce clean, runnable deliverables.
+Load the system into an LLM so it acts as your art director. It will ask which brand Profile, what output type, and which assets to keep consistent — then produce clean, runnable deliverables. → **[SETUP.md](SETUP.md) walks this through step-by-step** (creating the Profile, building the assistant, your first job). The short version:
 
 **Claude Projects / custom GPT / Gemini Gem — same idea:**
 1. Add to the assistant's knowledge: **Docs 00, 01 (your filled Profile), 02, 03, 06**, plus **04 or 05** depending on what you make most.
@@ -88,6 +88,8 @@ Load the system into an LLM so it acts as your art director. It will ask which b
 | Make a single image or a static series | [04 · Statics](docs/04_Statics_Module.md) |
 | Make a multi-shot reel or scene | [05 · Video](docs/05_Video_Scene_Module.md) |
 | Translate a prompt for a specific tool | [06 · Engine Adapters](docs/06_Engine_Adapters.md) |
+| Put brand type on the image (or leave space for it) | [02 · Core Grammar §3a](docs/02_Core_Prompt_Grammar.md) + Profile Field 13 |
+| Build your own assistant from scratch | [SETUP.md](SETUP.md) |
 | See the whole thing done | [examples/](examples/) |
 
 Now go open [Doc 00](docs/00_System_Operating_Contract.md).
