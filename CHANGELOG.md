@@ -2,6 +2,17 @@
 
 All notable changes to the Art Direction Engine.
 
+## [1.2.0] — 2026-06-03
+
+### Added
+- README **"Range — the same system, different worlds"** showcase: two extra fictional
+  brands rendered as 3-image static series — **Kestra** (sporty luxury / footwear) and
+  **Vespra** (premium minimalist / fragrance) — demonstrating that swapping only the
+  Profile retargets the whole system while each brand stays internally consistent.
+- Six showcase renders under `assets/examples/` (`kestra_post1-3`, `vespra_post1-3`),
+  documented in the assets slot table. These two brands are README-only (no worked-example
+  docs by design).
+
 ## [1.1.0] — 2026-06-03
 
 ### Added

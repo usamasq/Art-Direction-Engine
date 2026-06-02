@@ -114,6 +114,28 @@ All rendered stills and the reel live in [`assets/examples/`](assets/examples/).
 
 ---
 
+## Range — the same system, different worlds
+
+The point of a brand-blind system is that **swapping the Profile retargets everything.** Below, the *same* five-layer grammar, asset-locking, negative-space and scale rules produce three completely different worlds — each holding its product identical across its own art direction. Only the Profile changed.
+
+**Ember & Comb — warm, hearth-lit craft food.** Shown above: the master frame, the derived shots, and the reel.
+
+**Kestra — sporty luxury** (performance footwear). Cool graphite and steel, one hard sculptural light, dynamic energy, a single electric-lime accent.
+
+| Hero · concrete | Motion · chalk burst | Wet concrete · dusk |
+|:---:|:---:|:---:|
+| ![Kestra hero on concrete](assets/examples/kestra_post1.jpeg) | ![Kestra frozen mid-stride](assets/examples/kestra_post2.jpeg) | ![Kestra on wet concrete at dusk](assets/examples/kestra_post3.jpeg) |
+
+**Vespra — premium minimalist** (fragrance). Monochrome neutral, a single soft raking light, deep shadow, vast restraint — the bottle as a museum object.
+
+| Hero · pedestal | Shadow study | Plaster wall · dusk |
+|:---:|:---:|:---:|
+| ![Vespra hero on plaster pedestal](assets/examples/vespra_post1.jpeg) | ![Vespra shadow study on stone](assets/examples/vespra_post2.jpeg) | ![Vespra against a plaster wall](assets/examples/vespra_post3.jpeg) |
+
+*Three products, three art directions, one engine — and within each, the product stays consistent across every frame. That is the whole proposition: invent the look once, then reproduce it without drift.*
+
+---
+
 ## Using it with an LLM
 
 Load Docs 00–03 and 06 (plus your filled Profile) into an assistant's persistent knowledge, add 04 or 05 depending on what you make, and give it the short system prompt in [Doc 00 §5](docs/00_System_Operating_Contract.md). **[SETUP.md](SETUP.md) is the full step-by-step** — including a copy-paste system prompt and per-platform instructions for Claude Projects, custom GPTs, and Gemini Gems.

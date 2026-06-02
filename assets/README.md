@@ -23,3 +23,16 @@ Rendered from the prompts in the [worked example](../examples/worked_reel_EmberA
 | `ember_reel.mp4` | The assembled ~10s reel | Step 4–5 |
 
 Reference them from the docs (paths relative to the repo root), e.g. `![Ember & Comb master frame](assets/examples/ember_master_frame.jpeg)`.
+
+## Showcase brands — the README "Range" section
+
+Two extra fictional brands, each a 3-image static series, used only in the main README to show the system's range across art directions (they have no worked-example docs):
+
+| File | Brand · what it shows |
+|---|---|
+| `kestra_post1.jpeg` | Kestra (sporty luxury) — hero on concrete |
+| `kestra_post2.jpeg` | Kestra — frozen mid-stride, chalk burst |
+| `kestra_post3.jpeg` | Kestra — wet concrete at dusk |
+| `vespra_post1.jpeg` | Vespra (premium minimalist) — hero on a plaster pedestal |
+| `vespra_post2.jpeg` | Vespra — shadow study on stone |
+| `vespra_post3.jpeg` | Vespra — half-shadow against a plaster wall |
