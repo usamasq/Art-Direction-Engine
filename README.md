@@ -103,9 +103,7 @@ The best way to understand the system is to read a complete output. [`examples/`
 
 **Dynamic — the stills animated into a reel:**
 
-<video src="https://raw.githubusercontent.com/usamasq/My-AI-Art-Director/main/assets/examples/ember_reel.mp4" controls muted loop width="320"></video>
-
-▶ https://github.com/user-attachments/assets/feeb7255-420c-4040-94ab-ba12ce979d3f
+<video src="https://github.com/user-attachments/assets/feeb7255-420c-4040-94ab-ba12ce979d3f" controls muted loop width="320"></video>
 
 The reel is built by animating each approved still *motion-only*, so the look never drifts in the move from frame to film.
 
