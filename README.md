@@ -105,7 +105,9 @@ The best way to understand the system is to read a complete output. [`examples/`
 
 <video src="https://raw.githubusercontent.com/usamasq/My-AI-Art-Director/main/assets/examples/ember_reel.mp4" controls muted loop width="320"></video>
 
-▶ **[`ember_reel.mp4`](assets/examples/ember_reel.mp4)** — the ~10-second result (if the player above doesn't load, use this link). The reel is built by animating each approved still *motion-only*, so the look never drifts in the move from frame to film.
+▶ https://github.com/user-attachments/assets/feeb7255-420c-4040-94ab-ba12ce979d3f
+
+The reel is built by animating each approved still *motion-only*, so the look never drifts in the move from frame to film.
 
 These come from a complete worked example you can read end-to-end:
 
